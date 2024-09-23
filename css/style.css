@@ -1,35 +1,29 @@
 body{
-    background-color: hsl(217, 54%, 11%);    
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
 }
 
 .card{
     background-color: hsl(216, 50%, 16%);
-    width: 20%;
-    height: 600px;
-    margin: 100px;
-    margin-left: 690px;
-    float: none;
+    width: 350px;
+    height: 596px;
     border-radius: 15px;
-    display: flex;
-    flex-direction: column;
 }
 
 .card img{
-    width: 75%;
-    float: left;
-    margin-left: 46px;
-    margin-top: 20px;
+    width: 303px;
+    height: 302px;
     border-radius: 15px;
+    float: left;
+    margin-top: 21px;
+    margin-left: 24px;
 }
 
 .card h3{
-    width: 100%;
-    text-align: left;
-    margin-top: 30%;
-    margin-left: 50px;
-    font-family: Outfit;
-    font-size: 25px;
     color: white;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 .card h4{
