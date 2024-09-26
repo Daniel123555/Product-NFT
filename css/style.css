@@ -83,3 +83,19 @@ body{
     display: inline;
     margin: 10px 0 0 24px;
 }
+
+.card .creator h4{
+    width: 80px;
+    font-family: Outfit;
+    display: flex;
+    margin: -30px auto auto 70px;
+}
+
+.card .creator .name h4{
+    width: 110px;
+    font-family: Outfit;
+    display: flex;
+    float: right;
+    margin: -19px 91px 20px 0;
+    color: white;
+}
